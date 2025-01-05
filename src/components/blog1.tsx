@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";   
 
 // Explicitly define the type of comments state as an array of strings
 const BlogContext = () => {
@@ -21,10 +22,12 @@ const BlogContext = () => {
     <div>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 items-left flex-col">
-          <img
-            className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover rounded it"
+          <Image
+            className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover rounded-lg"
             alt="hero"
             src="/ai.jpg"
+            height={500}
+            width={500}
           />
           <h1 className="title-font text-3xl mb-4 font-medium text-gray-900">
             AI Evolution
@@ -32,7 +35,7 @@ const BlogContext = () => {
           <div className="mb-8 leading-relaxed">
             <p>
               AI is transforming the future by merging machine learning and neural networks. With self-improving algorithms,
-              AI adapts and evolves, making data-driven decisions that shape industries. It’s a synthetic intelligence,
+              AI adapts and evolves, making data-driven decisions that shape industries. It a synthetic intelligence,
               increasingly blurring the lines between human and machine capabilities, all through layers of code and data.
             </p>
             <p>
@@ -45,7 +48,7 @@ const BlogContext = () => {
 
             <p>
               Early AI research focused on symbolic reasoning and problem-solving but was limited in its applications, such as playing chess.
-              However, by the 1970s to 1980s, AI research faced setbacks during a period known as the "AI Winter." This era was marked by reduced 
+              However, by the 1970s to 1980s, AI research faced setbacks during a period known as the AI Winter. This era was marked by reduced 
               funding and a decline in enthusiasm, primarily due to the challenges of limited computing power and overly ambitious expectations.
             </p>
 
@@ -58,13 +61,13 @@ const BlogContext = () => {
             <p>
               The 2010s and beyond saw the rise of deep learning, a subset of machine learning, which uses neural networks with many 
               layers to process vast amounts of data. This era marked significant advancements, with AI systems becoming more capable and efficient,
-              powering virtual assistants, self-driving cars, AI in healthcare, and advanced language models like OpenAI's GPT series.
+              powering virtual assistants, self-driving cars, AI in healthcare, and advanced language models like OpenAI GPT series.
             </p>
 
             <p>
               Today, AI continues to evolve with research into General AI (AGI), which aims to create machines that can perform any intellectual
               task a human can do. As AI technology progresses, the conversation around its ethical implications, including issues of bias, privacy,
-              and job displacement, has become increasingly important. AI’s rapid growth holds the potential to transform industries and redefine many aspects of human life.
+              and job displacement, has become increasingly important. AI rapid growth holds the potential to transform industries and redefine many aspects of human life.
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import Link from 'next/link';
+import Image from 'next/image';
 
 
 const Hero =()=>{
@@ -23,16 +23,19 @@ const Hero =()=>{
 />
       </h1>
       <p className="mb-8 leading-relaxed">
-      "I am proudly enrolled in the esteemed Governor Sindh Initiative focused on Cloud Computing and the rapidly advancing field of Applied Generative AI, which explores
-       the use of AI to create innovative content and solutions. Stay tuned on my blog for more updates and insights!"
+      This blog explores the latest trends in technology, its impact on various industries, and how these innovations
+       are creating new opportunities for businesses and individuals alike. Join us as we delve deeper into the world
+        of cutting-edge technology and its potential to transform the future.
       </p>
       
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img
-        className="object-cover object-center rounded"
+      <Image
+        className="object-cover object-center rounded-lg"
         alt="hero"
-        src="./computer.jpg"
+        src="/computer.jpg"
+        width={500}
+        height={500}
       />
     </div>
   </div>

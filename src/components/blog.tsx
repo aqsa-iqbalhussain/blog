@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 import React from "react";
 
 const Blog =()=>{
@@ -11,10 +11,12 @@ const Blog =()=>{
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src="/ai.jpg"
             alt="blog"
+            height={500}
+            width={500}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -25,9 +27,7 @@ const Blog =()=>{
             </h1>
             <p className="leading-relaxed mb-3">
             AI is transforming the future by merging machine learning and neural networks. With self-improving algorithms, 
-     {/* AI adapts and evolves, making data-driven decisions that shape industries. It’s a synthetic intelligence, */} 
-             {/* increasingly blurring the lines between human and machine capabilities, all through layers of code and data. */}
-
+     
             </p>
             <div className="flex items-center flex-wrap ">
               <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 " href="/blog1" target="blank">
@@ -52,10 +52,12 @@ const Blog =()=>{
       </div>  
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src="/driverless.jpg"
             alt="blog"
+            height={500}
+            width={500}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -91,10 +93,12 @@ const Blog =()=>{
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="crypto.jpg"
+            src="/crypto.jpg"
             alt="blog"
+            height={500}
+            width={500}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -130,10 +134,12 @@ const Blog =()=>{
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src="/robot.jpg"
             alt="blog"
+            height={500}
+            width={500}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -169,10 +175,12 @@ const Blog =()=>{
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src="/dr.jpg"
             alt="blog"
+            height={500}
+            width={500}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -209,10 +217,12 @@ const Blog =()=>{
       </div>  
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src="/blockchain.avif"
             alt="blog"
+            height={500}
+            width={500}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -222,7 +232,7 @@ const Blog =()=>{
             Blockchain
             </h1>
             <p className="leading-relaxed mb-3">
-            Blockchain technology is a secure, transparent system that stores data in linked "blocks,"
+            Blockchain technology is a secure, transparent system that stores data in linked blocks,
          making it nearly impossible to alter, and is widely used in cryptocurrencies and other industries.
 
             </p>

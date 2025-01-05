@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 
 // Explicitly define the type of comments state as an array of strings
 const Blockchain = () => {
@@ -21,10 +22,12 @@ const Blockchain = () => {
     <div>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 items-left flex-col">
-          <img
-            className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover rounded it"
+          <Image
+            className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover rounded-lg"
             alt="hero"
             src="/blockchain.avif"
+            height={500}
+            width={500}
           />
           <h1 className="title-font text-3xl mb-4 font-medium text-gray-900">
          Blockchain Technology
@@ -32,7 +35,7 @@ const Blockchain = () => {
           </h1>
           <div className="mb-8 leading-relaxed">
             <p>
-            Blockchain technology is a secure, transparent system that stores data in linked "blocks,"
+            Blockchain technology is a secure, transparent system that stores data in linked blocks,
          making it nearly impossible to alter, and is widely used in cryptocurrencies and other industries.
          Blockchain technology is a decentralized and distributed digital ledger system designed to securely 
          record transactions across multiple computers in a way that prevents any modification or tampering of data
@@ -40,8 +43,8 @@ const Blockchain = () => {
           without the need for a central authority or intermediary, such as a bank.
             </p>
             <p>
-            In a blockchain, information is stored in blocks that are linked together in a chain, hence the name "blockchain."
-             Each block contains a list of transactions, a timestamp, and a unique code called a "hash." Once a block is 
+            In a blockchain, information is stored in blocks that are linked together in a chain, hence the name blockchain
+             Each block contains a list of transactions, a timestamp, and a unique code called a hash. Once a block is 
              added to the chain, it is immutable, meaning it cannot be altered or deleted. This ensures transparency, 
              security, and trust in the system.Blockchain is the foundation of cryptocurrencies like Bitcoin and Ethereum, 
              but its applications extend beyond digital currencies. It is used in various industries, such as supply chain 

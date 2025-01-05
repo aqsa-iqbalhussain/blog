@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 
 // Explicitly define the type of comments state as an array of strings
 const Robotic = () => {
@@ -21,10 +22,12 @@ const Robotic = () => {
     <div>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 items-left flex-col">
-          <img
-            className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover rounded it"
+          <Image
+            className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover rounded-lg"
             alt="hero"
             src="/robot.jpg"
+            height={500}
+            width={500}
           />
           <h1 className="title-font text-3xl mb-4 font-medium text-gray-900">
             Robotic Technology
